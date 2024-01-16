@@ -1,0 +1,27 @@
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(334deg, dodgerblue, #7525e2, #f7137e);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+.titleTodo {
+  color: #7525e2;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hlnaji {
+  color: #7525e2;
+  font-weight: 900;
+}
